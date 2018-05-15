@@ -1,5 +1,5 @@
 def draw_board(rows,columns):
-    for row in range(rows):
+    while range(rows):
         print(' ---' * columns)
         print('|   '*(columns +1))
     print(' ---' * columns)
